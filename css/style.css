@@ -16,6 +16,18 @@ body{
     background: var(--c-light);
 }
 
+.tittle {
+    font-family: var(--f-tittle);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.aboutus {
+    text-align: justify;
+
+}
+
 /*carrousel*/
 
 .carousel-item {
@@ -28,13 +40,6 @@ body{
     z-index: 2;
 }
 
-.carousel-caption h5 {
-    font-family: var(--f-tittle);
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 3rem;
-
-}
 
 .carousel-caption p {
     width: 60%;
