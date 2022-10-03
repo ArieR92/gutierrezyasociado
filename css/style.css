@@ -16,6 +16,15 @@ body{
     background: var(--c-light);
 }
 
+/*navbar*/
+
+.navbar-nav {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: var(--f-menu);
+    font-weight: 400;
+}
+
 .tittle {
     font-family: var(--f-tittle);
     font-weight: 600;
@@ -28,7 +37,7 @@ body{
 
 }
 
-/*carrousel*/
+/* main carrousel*/
 
 .carousel-item {
    height: 40rem; 
@@ -60,11 +69,45 @@ body{
 }
 
 
-/*navbar*/
+/* secondary carrousel*/
 
-.navbar-nav {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    font-family: var(--f-menu);
-    font-weight: 400;
+
+.card {
+    border-radius: 0;
+    border-style: none;
+    margin: 1.5rem;
 }
+
+.card-img-top {
+    height: 45vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top:  200px;
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 4rem;  
+    padding-left: -80px;
+    padding-right: -80px;
+    
+}
+
+.owl-theme, .owl-nav [class*="owl-"]:hover {
+    background: transparent;
+}
+
+
+
