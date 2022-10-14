@@ -37,6 +37,30 @@ body{
 
 }
 
+.nav-orange{
+    background: var(--c-brand);
+}
+
+.navbar .nav-link {
+    color: #fbf7f4;
+    letter-spacing: 2px;
+    font-family: var(--f-menu);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar ul {
+    padding-left: 2rem;
+}
+.navbar ul li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar a:hover, li:active { 
+    background-color: #c43300;
+}
+
 /* main carrousel*/
 
 .carousel-item {
@@ -127,6 +151,12 @@ body{
     .main-logo img {
         max-width: 15rem;
         max-height: 15rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main-logo img {
+        padding-right: 50px;
     }
 }
 
