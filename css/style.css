@@ -123,6 +123,13 @@ body{
     width: 25rem;
 }
 
+@media (max-width:500px) {
+    .main-logo img {
+        max-width: 15rem;
+        max-height: 15rem;
+    }
+}
+
 /* secondary carrousel*/
 
 
