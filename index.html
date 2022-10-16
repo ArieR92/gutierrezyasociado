@@ -20,7 +20,7 @@
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid main-container">
 
 
 <!--logo-->
@@ -44,8 +44,8 @@
 
    
   <!--menu-->
-  <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg nav-orange p-3">
+  <div class="container-fluid menu">
+  <nav class="navbar navbar-expand-lg nav-orange">
     
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,19 +53,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">INICIO</a>
+            <a class="nav-link d-flex align-items-center" href="#">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#nosotros">NOSOTROS</a>
+            <a class="nav-link d-flex align-items-center" href="#nosotros">NOSOTROS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallery">GALERÍA</a>
+            <a class="nav-link d-flex align-items-center" href="#gallery">GALERÍA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">CONTÁCTENOS</a>
+            <a class="nav-link d-flex align-items-center">CONTÁCTENOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">DIRECCIÓN</a>
+            <a class="nav-link d-flex align-items-center">DIRECCIÓN</a>
           </li>
         </ul>
       </div>
@@ -78,7 +78,7 @@
 
     <!--portada-->
     
-      <div class="container-fluid portada">
+<div class="container-fluid portada">
         
         <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -121,7 +121,7 @@
           </button>
           
         </div>
-      </div>
+</div>
       
    <!--portada end-->
 
@@ -313,6 +313,61 @@
 <!--galeria end-->
 
 <!--contactanos-->
+<div class="container-fluid d-flex flex-column justify-content-center" id="contacto">
+  
+  
+  <div class="row text-center">
+
+      <div class="col-12 escribenos">
+          <h5 class="tittle-contact text-center">CONTÁCTANOS</h5>
+          <p>Escríbenos y cuéntanos un poco sobre tu proyecto, sera un placer atenderle y <br> que seas parte de GUTIÉRREZ y Asociados</p>
+      </div>
+  
+
+  <div class="container d-flex justify-content-center">
+    
+    <div class="col-12 col-lg-8">
+      <div class="row inputs">
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control" placeholder="Categoría" aria-label="Last name">
+        </div>
+      </div>
+    
+      <div class="row inputs">
+        <div class="col-12 col-lg-6">
+          <input class="form-control" type="text" placeholder="Celular" aria-label="default input example">
+        </div>
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Ciudad">
+        </div>
+      </div>
+    
+      <div class="row inputs">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+        </div>
+      </div>
+      <div class="row inputs">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+  
+      <div class="row inputs">
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
 <!--contactanos end-->
 
 <!--direccion-->

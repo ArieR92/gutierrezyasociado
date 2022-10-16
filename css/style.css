@@ -1,9 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 
 :root {
     --c-brand: #ff3b00;
+    --c-hover: #c80303;
     --c-light: #fbf7f4;
     --f-tittle: 'Poppins', sans-serif;
     --f-body: 'Montserrat', sans-serif;
@@ -15,8 +16,17 @@
 body{
     background: var(--c-light);
 }
+.main-container {
+    padding: 0;
+    margin: 0;
+}
 
 /*navbar*/
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
 
 .navbar-nav {
     font-size: 1.2rem;
@@ -41,25 +51,77 @@ body{
     background: var(--c-brand);
 }
 
+@media screen and (min-width: 992px) {
+
+    .navbar {
+        padding: 0;
+        height: 80px;
+    }
+    .navbar .navbar-nav .nav-link {
+        height: 80px;
+    }
+    
+}
+
+
+
 .navbar .nav-link {
-    color: #fbf7f4;
-    letter-spacing: 2px;
+    color: var(--c-light);
+    letter-spacing: 1px;
     font-family: var(--f-menu);
     font-weight: 400;
     font-size: 1rem;
+    width: 10rem;
 }
 
-.navbar ul {
-    padding-left: 2rem;
-}
-.navbar ul li {
-    padding-left: 2rem;
-    padding-right: 2rem;
+.navbar .navbar-nav .nav-item {
+    position: relative;
+    padding: 0;
 }
 
-.navbar a:hover, li:active { 
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-brand);
+    width: 0;
+    height: 4px;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    background: #fbf7f4;
+    transition: all ease-in 0.5s;
+}
+
+
+.navbar ul li a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar .nav-item .nav-link:hover { 
+    color: var(--c-brand);
+    font-weight: 400;
+    font-family: var(--f-menu);
+}
+
+.navbar a .nav-item:hover { 
     background-color: #c43300;
 }
+
+
+.navbar .nav-item li {
+    height: 6rem;
+    }
 
 /*portada*/
 
@@ -82,6 +144,9 @@ body{
 
 .portada {
     min-height: 15rem;
+    padding: 0;
+    margin: 0;
+
 }
 
 .carousel-item {
@@ -266,49 +331,46 @@ body{
     
 }
 
+/*contacto*/
 
-
-
-/*.gallery .gallery-item h1 {
-    position: relative;
-    font-size: 22px;
-    text-decoration: uppercase;
-    color: #fff;
-    display: inline-block;
-    padding-left: 20px;
-    line-height: 15px;
-    transform: translate(25px);
-    transition: .5s ease-in-out;
-    letter-spacing: 0.5px;
+#contacto {
+    background-image: url(../img/background-contact.jpg);
+    height: 100vh;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover
 }
-/*.gallery .gallery-item em {
-    font-style: normal;
-    font-weight: 200;
-}*/
-/*.gallery .gallery-item h1 {
-    transform: translate(0);
-}*/
 
-/*.gallery .gallery-item p {
-    padding-left: 20px;
-    font-weight: 300 !important;
-    letter-spacing: 0.5px;
-    font-size: 14px;
-    color: #fff;
-    opacity: 0;
-    transform: translate(10px);
-    transition: .5s ease-in-out;
+input {
+    outline:0;
+    padding-top: 2rem;
+}
+.inputs input label {
+    color: var(--c-light);
+}
+
+.inputs {
+    /*padding-bottom: 1rem;*/
+}
+
+.tittle-contact {
+    font-family: var(--f-tittle);
+    font-weight: 600;
     text-transform: uppercase;
-}*/
+    font-size: 3rem;
+    color: var(--c-light);
+}
 
-/*.gallery .gallery-item {
-    text-align: center;
-    line-height: 150%;
-    text-transform: lowercase;
-    cursor: pointer;
-}*/
+.tittle-contact h5 {
+    padding: 0;
+    margin: 0;
+    
+}
 
-/*.gallery .gallery-item:hover p {
-    opacity: 1;
-    transform: translate(0);
-}*/
+
+.escribenos {
+    color: var(--c-light);
+    font-family: var(--f-body);
+    font-weight: 300;
+    padding: 2rem 0 2rem 0;
+}
