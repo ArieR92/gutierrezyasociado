@@ -61,7 +61,7 @@ body{
     background-color: #c43300;
 }
 
-/* main carrousel*/
+/*portada*/
 
 .carousel-item {
    height: 40rem; 
@@ -158,6 +158,12 @@ body{
     .main-logo img {
         padding-right: 50px;
     }
+}
+
+/*nosotros*/
+
+.tittle {
+    color: var(--c-brand);
 }
 
 /* secondary carrousel*/
