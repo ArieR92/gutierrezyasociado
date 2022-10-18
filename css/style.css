@@ -369,8 +369,20 @@ textarea:focus::placeholder {
 }
 
 .enviar-button button {
-    border-radius: 0;
+    border-radius: 10px;
+    background-color: var(--c-light);
+    color: var(--c-brand);
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    font-weight: 400;
 }
+
+.enviar-button button:hover {
+   color: var(--c-light);
+   box-shadow: var(--shadow);
+}
+
 
 
 
