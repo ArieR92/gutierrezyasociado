@@ -341,16 +341,43 @@ body{
     background-size: cover
 }
 
-input {
-    outline:0;
-    padding-top: 2rem;
-}
-.inputs input label {
+.form-control {
+    background-color: transparent;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1.5px solid var(--c-light);
+    outline: none;
+    padding-left: 1rem;
     color: var(--c-light);
 }
 
+.form-control::placeholder {
+ color: var(--c-light)  !important;
+ }
+
+ input:focus::-webkit-input-placeholder {
+    color: #000 !important;
+    outline: none;
+
+ }
+
+textarea:focus::placeholder { 
+    color: #000 !important;
+    border: none;
+}
+
+.enviar-button button {
+    border-radius: 0;
+}
+
+
+
+
+
 .inputs {
-    /*padding-bottom: 1rem;*/
+    padding-bottom: 1.5rem;
 }
 
 .tittle-contact {
