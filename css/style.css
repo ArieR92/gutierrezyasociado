@@ -355,7 +355,7 @@ body{
 
 #contacto {
     background-image: url(../img/background-contact.jpg);
-    height: 100vh;
+    height:;
     background-position:center;
     background-attachment: fixed;
     background-size: cover
@@ -431,5 +431,5 @@ textarea:focus::placeholder {
     color: var(--c-light);
     font-family: var(--f-body);
     font-weight: 300;
-    padding: 2rem 0 2rem 0;
+    padding-top: 5rem;
 }
