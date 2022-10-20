@@ -231,6 +231,26 @@ body{
     color: var(--c-brand);
 }
 
+.collapse-button {
+    width: 6rem;
+    background-color: var(--c-light);
+    color: var(--c-brand);
+    border: none;
+    border: 2px solid var(--c-brand);
+
+    
+}
+
+.collapse-button:hover {
+   background-color: var(--c-brand);
+    
+}
+
+.hidden-text {
+    background: transparent;
+    box-shadow: none;
+    padding-top: 2rem;
+}
 /* secondary carrousel*/
 
 
