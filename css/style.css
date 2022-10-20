@@ -35,6 +35,15 @@ body{
     font-weight: 400;
 }
 
+.navbar-toggler {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: transparent;
+}
+
+
+
 .tittle {
     font-family: var(--f-tittle);
     font-weight: 600;
@@ -44,6 +53,7 @@ body{
 
 .aboutus {
     text-align: justify;
+    
 
 }
 
@@ -355,7 +365,6 @@ body{
 
 #contacto {
     background-image: url(../img/background-contact.jpg);
-    height:;
     background-position:center;
     background-attachment: fixed;
     background-size: cover
@@ -389,13 +398,11 @@ textarea:focus::placeholder {
 }
 
 .enviar-button button {
-    border-radius: 10px;
+    width: 6rem;
     background-color: var(--c-light);
     color: var(--c-brand);
     border: none;
-    width: 8rem;
-    height: 3rem;
-    font-weight: 400;
+    border: 2px solid var(--c-brand);
 }
 
 .enviar-button button:hover {
@@ -420,9 +427,18 @@ textarea:focus::placeholder {
     color: var(--c-light);
 }
 
-.tittle-contact h5 {
-    padding: 0;
-    margin: 0;
+.tittle-contact {
+    font-size: 3rem;
+}
+   
+
+
+@media screen and (max-width: 576px) {
+
+    .tittle-contact {
+        font-size: 2rem;
+        
+    } 
     
 }
 
