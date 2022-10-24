@@ -73,10 +73,19 @@ body{
     
 }
 
+@media screen and (max-width: 992px) {
+
+    .navbar-nav {
+        padding-bottom: 1rem;
+    }
+    
+}
+
 .navbar-nav ul {
     display: flex;
     align-items: center;
 }
+
 
 
 
