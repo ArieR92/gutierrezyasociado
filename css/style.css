@@ -73,6 +73,11 @@ body{
     
 }
 
+.navbar-nav ul {
+    display: flex;
+    align-items: center;
+}
+
 
 
 .navbar .nav-link {
@@ -361,6 +366,18 @@ body{
     
 }
 
+.card-tittle {
+    font-family: var(--f-menu);
+    font-size: 1.2rem;
+}
+
+.text-description {
+    padding: 0;
+    margin: 0;
+    font-family: var(--f-body);
+    font-size: 0.8rem;
+}
+
 /*contacto*/
 
 #contacto {
@@ -410,6 +427,15 @@ textarea:focus::placeholder {
    box-shadow: var(--shadow);
 }
 
+.valid-feedback {
+    color: var(--c-light);
+}
+
+.invalid-feedback {
+    color: var(--c-light);
+    font-size: 0.7rem;
+}
+
 
 
 
@@ -448,4 +474,53 @@ textarea:focus::placeholder {
     font-family: var(--f-body);
     font-weight: 300;
     padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.horario, .direccion {
+    margin-top: 2rem;
+    font-family: var(--f-tittle);
+}
+.direccion {
+    padding-bottom: 3rem;
+}
+
+.dias p {
+    font-family: var(--f-body);
+    margin: 0;
+}
+
+.dias {
+    margin-bottom: 2rem;
+}
+
+.sabado p {
+    font-family: var(--f-body);
+    margin: 0;
+}
+
+.map {
+    padding: 2rem;
+}
+
+
+/*footer*/
+
+.rights {
+    background-color: var(--c-brand);
+    height: 5rem;
+}
+
+.rights p {
+    color: var(--c-light);
+    padding-left: 1rem;
+    font-family: var(--f-body);
+    padding-left: 2rem;
+    margin: 0;
+    font-size: 15px;
+
+}
+
+.footer-text {
+
 }
