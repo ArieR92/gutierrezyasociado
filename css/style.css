@@ -51,6 +51,11 @@ body{
     font-size: 3rem;
 }
 
+.tittle {
+    border-bottom: solid 1px var(--c-brand);
+    margin-bottom:3rem;
+}
+
 .aboutus {
     text-align: justify;
     
@@ -477,6 +482,10 @@ textarea:focus::placeholder {
     
 }
 
+hr {
+    width: 20rem;
+}
+
 
 .escribenos {
     color: var(--c-light);
@@ -527,9 +536,5 @@ textarea:focus::placeholder {
     padding-left: 2rem;
     margin: 0;
     font-size: 15px;
-
-}
-
-.footer-text {
 
 }
