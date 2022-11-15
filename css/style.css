@@ -62,6 +62,10 @@ body{
 
 }
 
+.readmore-btn {
+    font-size: 0.8rem;
+}
+
 .nav-orange{
     background: var(--c-brand);
 }
