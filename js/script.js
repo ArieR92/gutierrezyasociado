@@ -54,6 +54,7 @@ $(".owl-carousel").owlCarousel({
 
 
 
+//show less/show more button funtion
 
 $('.readmore-btn').on('click', function(){
   $(this).parent().toggleClass('ShowContent');
