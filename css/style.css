@@ -15,7 +15,8 @@
 
 body{
     background: var(--c-light);
-    padding: 0 5px 0 5px;
+    width: 100%;
+    padding-top: 5rem;
 }
 .main-container {
     padding: 0;
@@ -406,10 +407,10 @@ body{
 .form-control {
     background-color: transparent;
     border-radius: 0;
-    margin: 10px 0;
+    margin: 5px 0;
     padding: 5px 0;
     border: none;
-    border-bottom: 1.5px solid var(--c-light);
+    border-bottom: 1px solid var(--c-light);
     outline: none;
     padding-left: 1rem;
     color: var(--c-light);
@@ -494,7 +495,7 @@ hr {
     font-family: var(--f-body);
     font-weight: 300;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 0.5rem;
 }
 
 .horario, .direccion {
