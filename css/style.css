@@ -313,11 +313,11 @@ body{
 }
 
 .owl-prev {
-    left: -30px;
+    left: -50px;
 }
 
 .owl-next {
-    right: -30px;
+    right: -10px;
 }
 
 .owl-prev, .owl-next {

@@ -10,7 +10,7 @@ $(".owl-carousel").owlCarousel({
     responsive: {
         0:{
             items:1,
-            nav:true,
+            nav:false,
             dots: false
         },
         600:{
