@@ -1,7 +1,7 @@
 //secondary carousel//
 
 $(".owl-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     autoplayhoverpause: true,
     autoplaytimeout: 100,
     items: 3,
