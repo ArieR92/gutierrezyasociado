@@ -343,6 +343,11 @@ body{
 
 /*gallery*/
 
+.proyectos {
+    width: 100%;
+    overflow: hidden;
+}
+
 .gallery .container,
 .gallery .img-container {
     padding-left: 0px;
