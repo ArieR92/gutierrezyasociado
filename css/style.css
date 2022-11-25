@@ -3,8 +3,8 @@
 
 
 :root {
-    --c-brand: #ff3b00;
-    --c-hover: #c80303;
+    --c-brand: #d60303;
+    --c-hover: #ff0d18;
     --c-light: #fbf7f4;
     --f-tittle: 'Poppins', sans-serif;
     --f-body: 'Montserrat', sans-serif;
@@ -33,6 +33,7 @@ body{
 .menu {
     padding: 0;
     margin: 0;
+    background-color: var(--c-brand);
 }
 
 .navbar-nav {
@@ -222,7 +223,7 @@ body{
 }
 
 .nav-orange {
-    background-color: #ff3b00;
+    background-color: var(--c-brand);
     padding: 0;
     margin: 0;
 }
